@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Management</h1>
+        
+        <!-- Form to Create/Update a User -->
+        <form id="userForm">
+            <input type="hidden" id="userId">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Save User</button>
+        </form>
+        
+        <!-- User List Display -->
+        <h2>User List</h2>
+        <div id="userList"></div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
